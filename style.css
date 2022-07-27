@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    background-color: rgb(170, 164, 164);
+    width: 90%;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;   
+    border-radius: 55px;
+    position: relative;
+    border: 1px solid rgb(85, 81, 81);
+    
+}
+#subcontainer {
+    background-color: rgb(73, 69, 69);
+    width: 97%;
+    height: 96%;
+    display: flex;
+    margin: auto;
+    border-radius: 55px 55px 55px 55px;
+    transform: translateX(2%);
+    margin-bottom: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    justify-content: space-between;
+}
+#entradalateral {
+    left: 8px;
+    background-image: linear-gradient(to right, rgb(122, 117, 117), rgb(51, 49, 49));
+    width: 2%;
+    height: 4%;
+    position: absolute;
+    border-radius: 100px;
+    margin-top: 10%;
+}
+.frequencias {
+    background-color: blue;
+    position: relative;
+    width: 33.333%;
+    height: 100%;
+    
+}
+.media1 {
+    position: relative;
+    background-color: red;
+    border-radius: 55px 0px 0px 55px;
+    width: 33.333%;
+    height: 100%;
+    
+}
+.divbuttonmedia1 {
+    position: absolute;
+    bottom: 5%;
+    left: 18%;
+    display: flex;
+    width: 20%;
+    
+    
+}
+.button-media1 {
+    color: white;
+    background-color: black;
+    margin-right: 50%;
+    padding: 10% 20%;
+    border-radius: 5px;
+}
+.jogger {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    border-radius: 200px;
+    background-color: black;
+    left: 15%;
+    bottom: 15%;
+}
+.media2 {
+    position: relative;
+    background-color: red;
+    border-radius: 0px 55px 55px 0px;
+    width: 33.333%;
+    height: 100%;
+}
+.divbuttonmedia2 {
+    position: absolute;
+    bottom: 5%;
+    left: 18%;
+    display: flex;
+    width: 20%;
+}
+.button-media2 {
+    color: white;
+    background-color: black;
+    margin-right: 50%;
+    padding: 10% 20%;
+    border-radius: 5px;
+}
+.button-freq1 {
+    position: absolute;
+    left: 42.5%;
+    top: 14.5%;
+    width: 12%;
+    height: 9%;
+    border-radius: 200px;
+    background-color: black;
+    
+}
+.button-freq2 {
+    position: absolute;
+    left: 42.5%;
+    top: 30%;
+    width: 12%;
+    height: 9%;
+    border-radius: 200px;
+    background-color: black;
+    
+}
+.button-freq3 {
+    position: absolute;
+    left: 42.5%;
+    top: 45%;
+    width: 12%;
+    height: 9%;
+    border-radius: 200px;
+    background-color: black;
+    
+}
+.telainterativa1 {
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    background-color: greenyellow;
+    left: 5%;
+    top: 3%;
+    border-radius: 40px 5px 0px 0px;
+}
+.telainterativa2 {
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    background-color: greenyellow;
+    left: 5%;
+    top: 3%;
+    border-radius: 5px 40px 0px 0px;
+}
+.divbuttoninterativo1 {
+    position: absolute;
+    display: flex;
+    left: 24%;
+    top: 25%;
+}
+.button-interativo1 {
+    color: white;
+    background-color: black;
+    margin-right: 50%;
+    padding: 10% 20%;
+    border-radius: 5px;
+}
+.divbuttoninterativo2 {
+    position: absolute;
+    display: flex;
+    left: 24%;
+    top: 25%;
+}
+.button-interativo2 {
+    color: white;
+    background-color: black;
+    margin-right: 50%;
+    padding: 10% 20%;
+    border-radius: 5px;
+}
