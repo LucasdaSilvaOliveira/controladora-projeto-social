@@ -29,7 +29,6 @@ let c = 0
 document.getElementById('next1').addEventListener("click",funções[0]);
 
 
-
 /*
 function next1() {
     txt1.innerHTML = 'Esse é o display das minhas músicas favoritas !'
