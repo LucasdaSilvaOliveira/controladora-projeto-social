@@ -21,8 +21,20 @@ function desligar() {
     telaint2.style.backgroundColor = 'black'
 }
 
-document.getElementById('next1').addEventListener("click",next1);
+const nxt1 = () => {txt1.innerHTML = 'Esse é o display das minhas músicas favoritas !'}
+const nxt2 = () => {txt1.innerHTML = 'Teste'}
 
+const funções = [nxt1, nxt2]
+let c = 0
+document.getElementById('next1').addEventListener("click",funções[0]);
+
+
+
+/*
 function next1() {
-    txt1.innerHTML= 'Esse é o display das minhas músicas favoritas !'    
+    txt1.innerHTML = 'Esse é o display das minhas músicas favoritas !'
 }
+function next2() {
+    txt1.innerHTML = 'Teste'
+}
+*/
