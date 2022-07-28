@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,29 @@
     <title>Controladora social</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="container">
         <div id="entradalateral">
-            
+
         </div>
         <div id="subcontainer">
             <section class="media1">
                 <div class="telainterativa1">
-
+                    <div id="texto-interativo1">
+                        <p>Seja bem vindo (a) !</p>
+                        <p>Aperte ''Next'' para as próximas opções !</p>
+                    </div>
+                </div>
+                <div class="button-ligar" onclick="ligar()">
+                    <p id="on">On</p>
+                </div>
+                <div class="button-desligar" onclick="desligar()">
+                    <p id="off">Off</p>
                 </div>
                 <div class="divbuttoninterativo1">
-                    <div class="button-interativo1">Previous</div>
-                    <div class="button-interativo1">Next</div>
+                    <div class="button-interativo1" onclick="previous()">Previous</div>
+                    <div class="button-interativo1" id="next1">Next</div>
                 </div>
                 <div class="jogger">
 
@@ -29,11 +40,11 @@
                     <div class="button-media1">Stop</div>
                     <div class="button-media1">Cue</div>
                 </div>
-                
+
             </section>
             <section class="frequencias">
                 <div class="button-freq1">
-                
+
                 </div>
                 <div class="button-freq2">
 
@@ -44,7 +55,10 @@
             </section>
             <section class="media2">
                 <div class="telainterativa2">
-
+                    <div id="texto-interativo2">
+                        <p>Seja bem vindo (a) !</p>
+                        <p>Aperte ''Next'' para as próximas opções !</p>
+                    </div>
                 </div>
                 <div class="divbuttoninterativo2">
                     <div class="button-interativo2">Previous</div>
@@ -61,7 +75,7 @@
             </section>
         </div>
     </div>
-
-    
+    <script src="script.js"></script>
 </body>
+
 </html>
