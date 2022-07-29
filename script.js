@@ -218,49 +218,49 @@ let social3 = document.getElementById('button-social3')
 let social4 = document.getElementById('button-social4')
 
 function info2() {
-    txt2.innerHTML= 'Esse é o display das minhas redes sociais ! Escolha abaixo para me conhecer melhor !'
+    txt2.innerHTML = 'Esse é o display das minhas redes sociais ! Escolha abaixo e clique na tela para me conhecer melhor !'
     telaint2.style.backgroundColor = '#153c69'
-    txt2.style.left= '6%'
-    txt2.style.top= '25%'
+    txt2.style.top = '15%'
+    txt2.style.left = '6%'
 }
 
 social1.addEventListener("click", facebook1)
 
 function facebook1() {
-    txt2.innerHTML= '<a href="https://www.facebook.com/profile.php?id=100001716380388" target="_blank"><img src="imagens/facebook.jpg" alt="facebook" id="face"></a>'
-    txt2.style.top= '0%'
-    txt2.style.left= '0%'
-    txt2.style.height= '100%'
-    txt2.style.width= '100%'
-    
+    txt2.innerHTML = '<a href="https://www.facebook.com/profile.php?id=100001716380388" target="_blank"><img src="imagens/facebook.jpg" alt="facebook" id="face"></a>'
+    txt2.style.top = '0%'
+    txt2.style.left = '0%'
+    txt2.style.height = '100%'
+    txt2.style.width = '100%'
+
 }
 
 social2.addEventListener("click", instagram2)
 
 function instagram2() {
-    txt2.innerHTML= '<a href="https://www.instagram.com/lucksilva01/" target="_blank"><img src="imagens/instagram.jpg" alt="instagram" id="insta"></a>'
-    txt2.style.top= '0%'
-    txt2.style.left= '0%'
-    txt2.style.height= '100%'
-    txt2.style.width= '100%'
+    txt2.innerHTML = '<a href="https://www.instagram.com/lucksilva01/" target="_blank"><img src="imagens/instagram.jpg" alt="instagram" id="insta"></a>'
+    txt2.style.top = '0%'
+    txt2.style.left = '0%'
+    txt2.style.height = '100%'
+    txt2.style.width = '100%'
 }
 
 social3.addEventListener("click", github3)
 
 function github3() {
-    txt2.innerHTML= '<a href="https://github.com/LucasdaSilvaOliveira" target="_blank"><img src="imagens/GitHub.jpg" alt="Github" id="git"></a>'
-    txt2.style.top= '0%'
-    txt2.style.left= '0%'
-    txt2.style.height= '100%'
-    txt2.style.width= '100%'
+    txt2.innerHTML = '<a href="https://github.com/LucasdaSilvaOliveira" target="_blank"><img src="imagens/GitHub.jpg" alt="Github" id="git"></a>'
+    txt2.style.top = '0%'
+    txt2.style.left = '0%'
+    txt2.style.height = '100%'
+    txt2.style.width = '100%'
 }
 
 social4.addEventListener("click", linkedin4)
 
 function linkedin4() {
-    txt2.innerHTML= '<a href="https://www.linkedin.com/in/lucas-da-silva-12154a240/" target="_blank"><img src="imagens/linkedin.jpg.crdownload" alt="linkedin" id="linked"></a>'
-    txt2.style.top= '0%'
-    txt2.style.left= '0%'
-    txt2.style.height= '100%'
-    txt2.style.width= '100%'
+    txt2.innerHTML = '<a href="https://www.linkedin.com/in/lucas-da-silva-12154a240/" target="_blank"><img src="imagens/linkedin.jpg.crdownload" alt="linkedin" id="linked"></a>'
+    txt2.style.top = '0%'
+    txt2.style.left = '0%'
+    txt2.style.height = '100%'
+    txt2.style.width = '100%'
 }
