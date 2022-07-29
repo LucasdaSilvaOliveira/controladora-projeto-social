@@ -4,7 +4,12 @@
     margin: 0px;
     padding: 0px;
 }
-
+body {
+    background-image: url(imagens/rave.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
 #container {
     background-color: rgb(170, 164, 164);
     width: 90%;
@@ -20,7 +25,7 @@
 }
 
 #subcontainer {
-    background-image: linear-gradient(to right, rgba(75, 99, 104, 0.986), rgb(163, 185, 214), rgba(75, 99, 104, 0.986));
+    background-image: linear-gradient(to right, #4b6368fb, rgb(163, 185, 214), rgba(75, 99, 104, 0.986));
     width: 97%;
     height: 96%;
     display: flex;
@@ -90,7 +95,14 @@
     box-shadow: -7px 7px 0px rgb(59, 58, 58), 7px -7px 0px rgb(59, 58, 58), -7px -7px 0px rgb(59, 58, 58), 7px 7px 0px rgb(59, 58, 58);
 
 }
-
+.trackname1 {
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 41%;
+    font-size: 120%;
+    display: none;
+}
 .media2 {
     position: relative;
 
@@ -179,6 +191,8 @@
     top: 3%;
     border-radius: 5px 40px 0px 0px;
     border: 1px solid black;
+    
+    
 }
 
 #texto-interativo2 {
@@ -191,8 +205,7 @@
     display: none;
 }
 
-#texto-interativo1,
-#texto-interativo2>p {
+#texto-interativo1, #texto-interativo2 > p {
     text-shadow: 1px 1px 1px black;
 }
 
@@ -234,6 +247,7 @@
     border: 1px solid black;
     box-shadow: -2px 2px 0px rgb(59, 58, 58), -0.8px -0.8px 0px rgb(59, 58, 58);
     cursor: pointer;
+    background-color: #ff000088;
 }
 
 #off {
@@ -268,12 +282,13 @@
     display: flex;
     left: 24%;
     top: 25%;
+    
 }
 
 .button-interativo1 {
     color: white;
     background-color: black;
-    margin-right: 50%;
+    margin-right: 30%;
     padding: 10% 20%;
     border-radius: 5px;
     box-shadow: -2px 2px 0px rgb(59, 58, 58);
@@ -294,7 +309,7 @@
 .button-interativo2 {
     color: white;
     background-color: black;
-    margin-right: 50%;
+    margin-right: 30%;
     padding: 10% 20%;
     border-radius: 5px;
     box-shadow: -2px 2px 0px rgb(59, 58, 58);
@@ -328,4 +343,91 @@
     cursor: pointer;
     color: white;
     background-color: black;
+}
+
+audio {
+    display: none;
+}
+#play1 {
+    cursor: pointer;
+}
+#play1:active {
+    box-shadow: none;
+    
+}
+#stop1 {
+    cursor: pointer;
+
+}
+#stop1:active {
+    box-shadow: none;
+}
+#texto-interativoprimeiro {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 120%;
+    line-height: 130%;
+    display: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.664);
+}
+#texto-interativosegundo {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 120%;
+    line-height: 130%;
+    display: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.664);
+}
+#texto-interativoterceiro {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 120%;
+    line-height: 130%;
+    display: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.664);
+}
+#texto-interativoquarto {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 120%;
+    line-height: 130%;
+    display: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.664);
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(136, 136, 155);
+}
+#face {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 40px 0px 0px;
+}
+#insta {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 40px 0px 0px;
+}
+#git {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 40px 0px 0px;
+}
+#linked {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 40px 0px 0px;
 }
