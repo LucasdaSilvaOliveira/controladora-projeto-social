@@ -220,7 +220,7 @@ let social4 = document.getElementById('button-social4')
 function info2() {
     txt2.innerHTML= 'Esse é o display das minhas redes sociais ! Escolha abaixo para me conhecer melhor !'
     telaint2.style.backgroundColor = '#153c69'
-    txt2.style.left= '10%'
+    txt2.style.left= '6%'
     txt2.style.top= '25%'
 }
 
