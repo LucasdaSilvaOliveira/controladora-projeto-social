@@ -23,7 +23,6 @@ function ligar() {
     txt1s.style.display = 'inline'
     txt1t.style.display = 'inline'
     txt1q.style.display = 'inline'
-
     txt2.style.display = 'inline'
     online.style.backgroundColor = '#00800094'
     offline.style.backgroundColor = '#4b6368fb'
@@ -258,7 +257,7 @@ function github3() {
 social4.addEventListener("click", linkedin4)
 
 function linkedin4() {
-    txt2.innerHTML = '<a href="https://www.linkedin.com/in/lucas-da-silva-12154a240/" target="_blank"><img src="imagens/linkedin.jpg.crdownload" alt="linkedin" id="linked"></a>'
+    txt2.innerHTML = '<a href="https://www.linkedin.com/in/lucas-da-silva-12154a240/" target="_blank"><img src="imagens/linkedin.png" alt="linkedin" id="linked"></a>'
     txt2.style.top = '0%'
     txt2.style.left = '0%'
     txt2.style.height = '100%'
