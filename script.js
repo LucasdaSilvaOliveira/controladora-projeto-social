@@ -29,6 +29,8 @@ function ligar() {
     telaint1.style.backgroundColor = '#153c69'
     telaint2.style.backgroundColor = '#153c69'
     txt1.style.top = '25%'
+    txt2.style.top = '25%'
+    txt2.style.left = '10%'
     tracknam.innerHTML = ''
     txt1s.innerHTML = ''
     txt1t.innerHTML = ''
@@ -262,4 +264,27 @@ function linkedin4() {
     txt2.style.left = '0%'
     txt2.style.height = '100%'
     txt2.style.width = '100%'
+}
+
+document.getElementById('onibus').addEventListener("click", onibusbatendo)
+let animation = document.getElementById('onibusanimação')
+let sectionxp = document.getElementById('sectionxp1')
+let clickno = document.getElementById('clickno')
+
+function onibusbatendo() {
+    animation.style.animationName = 'animação'
+    animation.style.animationDuration = '2.5s'
+    animation.style.marginLeft = '86%'
+    clickno.style.display = 'none'
+    divaparecer() 
+}
+
+function divaparecer() {
+    
+    sectionxp.style.animationName = 'divaparecer'
+    sectionxp.style.animationDuration = '5s'
+    sectionxp.style.animationDelay = ''
+    if(animation.style.marginLeft == '86%') {
+    sectionxp.style.color = 'black'
+    }
 }

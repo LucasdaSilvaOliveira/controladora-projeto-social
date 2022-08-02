@@ -436,6 +436,112 @@ a:hover {
     margin: auto;
     background-color: white;
     height: 100%;
-    text-align: center;
+    position: relative;
     border-radius: 5px;
+    background-image: linear-gradient(to bottom, #3333d4, #398181, #89dabf);
+}
+#containertexto h1 {
+    font-size: 500%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px;
+    text-align: center;
+}
+ul {
+    
+    list-style-type: circle;
+    
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.listalt {
+    margin-left: 10%;
+    list-style-type: square;
+    text-decoration: underline;
+}
+p {
+    
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+#nomeinfo {
+    width: 50%;
+    line-height: 30px;
+    
+}
+#objetivoinfo {
+    width: 50%;
+    line-height: 35px;
+    
+}
+#sectioninfo1 {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 8%;
+    
+}
+@media screen and (max-width: 600px) {
+    #nomeinfo {
+        width: 100%;
+        text-align: center;
+        margin-right: 20%;
+        margin-bottom: 20%;      
+    }
+    ul {
+        list-style-type: none;
+        line-height: 40px;
+    }
+    .listalt {
+        list-style-type: none;
+    }
+    #objetivoinfo {
+        width: 100%;
+        text-align: center;
+        margin-right: 20%;
+    }
+    #containertexto h1 {
+        font-size: 300%;
+    }
+}
+@keyframes animação {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 86%;
+    }
+}
+@keyframes divaparecer {
+    0% {
+        color: #89dabf00;
+    }
+    100% {
+        color: black;
+    }
+}
+#onibus {
+    width: 150px;
+    cursor: pointer;
+}
+#onibusanimação {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#sectionxp1 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: #89dabf00;
+    line-height: 40px;
+}
+#clickno {
+    margin-left: 10px;
+    font-size: 100%;
 }
