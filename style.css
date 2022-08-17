@@ -1,14 +1,36 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
+html {
+     scroll-behavior: smooth;
+}
 body {
     background-image: url(imagens/rave.jpg);
-    background-attachment: fixed;
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+menu {
+    background-image: linear-gradient(to bottom, white, gray);
+    height: 50px;
+    width: 100%;
+    padding-top: 30px;
     
+}
+menu > nav {
+    display: flex;
+    gap: 100px;
+    justify-content: right;
+    margin-right: 100px;
+}
+menu a {
+    color:#24227e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 #container {
     background-color: rgb(170, 164, 164);
@@ -16,7 +38,7 @@ body {
     height: 600px;
     display: flex;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
     border-radius: 55px;
     position: relative;
@@ -431,136 +453,63 @@ a:hover {
     height: 100%;
     border-radius: 5px 40px 0px 0px;
 }
-#containertexto {
-    width: 80%;
-    margin: auto;
-    background-color: white;
-    height: 100%;
-    position: relative;
-    border-radius: 5px 5px 0px 0px;
-    background-image: linear-gradient(to bottom, #3333d4, #398181, #89dabf);
-}
-#containertexto h1 {
-    font-size: 500%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
-    text-align: center;
-    
-}
-ul {
-    
-    list-style-type: circle;
-    
-    font-size: 20px;
-    font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
-}
-.listalt {
-    margin-left: 10%;
-    list-style-type: square;
-    text-decoration: underline;
-}
-#containertexto p {
-    
-    font-size: 20px;
-    font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
-}
-#nomeinfo {
-    width: 50%;
-    line-height: 30px;
-    
-}
-#objetivoinfo {
-    width: 50%;
-    line-height: 35px;
-    
-}
-#sectioninfo1 {
+main {
+    background-color: rgb(81, 196, 216);
+    margin-top: 180px;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
     display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 8%;
+    justify-content: space-around;
+}
+#hardskills {
+    text-align: center;
+}
+#hardskills h2 {
+    font-size: 80px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521);
+}
+#divhs {
+    
+    
     margin-top: 40px;
 }
-@media screen and (max-width: 600px) {
-    #nomeinfo {
-        width: 100%;
-        text-align: center;
-        margin-right: 20%;
-        margin-bottom: 20%;      
-    }
-    ul {
-        list-style-type: none;
-        line-height: 40px;
-    }
-    .listalt {
-        list-style-type: none;
-    }
-    #objetivoinfo {
-        width: 100%;
-        text-align: center;
-        margin-right: 20%;
-    }
-    #containertexto h1 {
-        font-size: 300%;
-    }
-}
-@keyframes animação {
-    0% {
-        margin-left: 0px;
-    }
-    100% {
-        margin-left: 86%;
-    }
-}
-@keyframes divaparecer {
-    0% {
-        color: #89dabf00;
-    }
-    100% {
-        color: black;
-    }
-}
-#onibus {
-    width: 150px;
-    cursor: pointer;
-    
-}
-#onibusanimação {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    
-}
-#sectionxp1 {
+#softskills {
     text-align: center;
-    width: 60%;
-    margin: auto;
-    color: #89dabf00;
-    line-height: 40px;
-    position: relative;
-    padding-bottom: 50px;
 }
-#ultimoh2 {
-    margin-top: 30px;
+
+.logos {
+    width: 100px;
+    height: 90px;
 }
-#clickno {
-    margin-left: 10px;
-    font-size: 100%;
-    position: absolute;
+#linha1 {
+    display: flex;
+    gap: 200px;
 }
-footer p {
-    background-color: #3939cf;
-    color: white;
-    font-size: 16px;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
-    
+#linha2 {
+    display: flex;
+    gap: 80px;
+    margin-left: 60px;
+}
+#git {
+    width: 100px;
+    height: 90px;
+    border-radius: 150px;
+}
+#linha3 {
+    display: flex;
+    margin-left: 142px;
+}
+#softskills ul {
+    text-align: left;
+    font-size: 20px;
+    margin: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
+}
+#softskills ul li {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+#softskills h2 {
+    font-size: 80px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521);
 }

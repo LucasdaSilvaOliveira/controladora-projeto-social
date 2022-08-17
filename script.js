@@ -265,26 +265,3 @@ function linkedin4() {
     txt2.style.height = '100%'
     txt2.style.width = '100%'
 }
-
-document.getElementById('onibus').addEventListener("click", onibusbatendo)
-let animation = document.getElementById('onibusanimação')
-let sectionxp = document.getElementById('sectionxp1')
-let clickno = document.getElementById('clickno')
-
-function onibusbatendo() {
-    animation.style.animationName = 'animação'
-    animation.style.animationDuration = '2.5s'
-    animation.style.marginLeft = '86%'
-    clickno.style.display = 'none'
-    divaparecer() 
-}
-
-function divaparecer() {
-    
-    sectionxp.style.animationName = 'divaparecer'
-    sectionxp.style.animationDuration = '5s'
-    sectionxp.style.animationDelay = ''
-    if(animation.style.marginLeft == '86%') {
-    sectionxp.style.color = 'black'
-    }
-}
