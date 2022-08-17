@@ -15,7 +15,6 @@ body {
     background-repeat: no-repeat;
 }
 menu {
-    background-image: linear-gradient(to bottom, white, gray);
     height: 50px;
     width: 100%;
     padding-top: 30px;
@@ -28,9 +27,13 @@ menu > nav {
     margin-right: 100px;
 }
 menu a {
-    color:#24227e;
+    color:white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    background-color: #2a2a68;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 #container {
     background-color: rgb(170, 164, 164);
@@ -460,6 +463,7 @@ main {
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 100px;
 }
 #hardskills {
     text-align: center;
