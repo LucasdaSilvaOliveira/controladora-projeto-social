@@ -544,6 +544,9 @@ form {
     line-height: 50px;
     
 }
+#button {
+    cursor: pointer;
+}
 footer {
     text-align: center;
     color: white;

@@ -265,3 +265,18 @@ function linkedin4() {
     txt2.style.height = '100%'
     txt2.style.width = '100%'
 }
+
+document.getElementById('button').addEventListener('click', submit)
+
+let msg = document.getElementById('imsg')
+let nome = document.getElementById('inome')
+
+function submit(){
+    if(nome.value.length == 0 || msg.value.length == 0){
+        window.alert('Preencha o formulário corretamente !')
+    } else { 
+        window.alert(`Obrigado por entrar em contato ${nome.value} !`)
+        nome.value = ''
+        msg.value = ''
+    }
+}
