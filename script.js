@@ -98,89 +98,75 @@ function info1() {
     buttontrack4.style.boxShadow = ''
 }
 
-document.getElementById('track1-1').addEventListener("click", track1s1)
-
-function track1s1() {
-    buttontrack1.style.backgroundColor = '#ffff002f'
-    buttontrack1.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
-
-    buttontrack2.style.backgroundColor = ''
-    buttontrack2.style.boxShadow = ''
-    buttontrack3.style.backgroundColor = ''
-    buttontrack3.style.boxShadow = ''
-    buttontrack4.style.backgroundColor = ''
-    buttontrack4.style.boxShadow = ''
-    tracknam.style.display = 'inline'
-    txt1.style.top = '30%'
-    txt1p.innerHTML = 'Alan Walker - Sing Me To Sleep (OutCast & OnlyBeat REMIX)'
-    txt1s.innerHTML = ''
-    txt1t.innerHTML = ''
-    txt1q.innerHTML = ''
-    txt1.innerHTML = ''
-}
-
-document.getElementById('track1-2').addEventListener("click", track1s2)
-
-function track1s2() {
-    buttontrack2.style.backgroundColor = '#ffff002f'
-    buttontrack2.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
-
-    buttontrack1.style.backgroundColor = ''
-    buttontrack1.style.boxShadow = ''
-    buttontrack3.style.backgroundColor = ''
-    buttontrack3.style.boxShadow = ''
-    buttontrack4.style.backgroundColor = ''
-    buttontrack4.style.boxShadow = ''
-
-    tracknam.style.display = 'inline'
-    txt1.style.top = '30%'
-    txt1s.innerHTML = 'Jilax Parra Nebula Kleysky - Mystique (Harlekin Remix)'
-    txt1.innerHTML = ''
-    txt1p.innerHTML = ''
-    txt1t.innerHTML = ''
-    txt1q.innerHTML = ''
-}
-
-document.getElementById('track1-3').addEventListener("click", track1s3)
-
-function track1s3() {
-    buttontrack3.style.backgroundColor = '#ffff002f'
-    buttontrack3.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
-
-    buttontrack1.style.backgroundColor = ''
-    buttontrack1.style.boxShadow = ''
-    buttontrack2.style.backgroundColor = ''
-    buttontrack2.style.boxShadow = ''
-    buttontrack4.style.backgroundColor = ''
-    buttontrack4.style.boxShadow = ''
-    tracknam.style.display = 'inline'
-    txt1.style.top = '30%'
-    txt1t.innerHTML = 'MEIS & Mahori - Down The Street'
-    txt1.innerHTML = ''
-    txt1p.innerHTML = ''
-    txt1s.innerHTML = ''
-    txt1q.innerHTML = ''
-}
-
-document.getElementById('track1-4').addEventListener("click", track1s4)
-
-function track1s4() {
-    buttontrack4.style.backgroundColor = '#ffff002f'
-    buttontrack4.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
-
-    buttontrack1.style.backgroundColor = ''
-    buttontrack1.style.boxShadow = ''
-    buttontrack2.style.backgroundColor = ''
-    buttontrack2.style.boxShadow = ''
-    buttontrack3.style.backgroundColor = ''
-    buttontrack3.style.boxShadow = ''
-    tracknam.style.display = 'inline'
-    txt1.style.top = '30%'
-    txt1q.innerHTML = 'PhaZed & Azkaban - Spartan Odyssey'
-    txt1.innerHTML = ''
-    txt1p.innerHTML = ''
-    txt1s.innerHTML = ''
-    txt1t.innerHTML = ''
+function selecionarTrack(num) {
+    if (num == 1) {
+        buttontrack1.style.backgroundColor = '#ffff002f'
+        buttontrack1.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
+        buttontrack2.style.backgroundColor = ''
+        buttontrack2.style.boxShadow = ''
+        buttontrack3.style.backgroundColor = ''
+        buttontrack3.style.boxShadow = ''
+        buttontrack4.style.backgroundColor = ''
+        buttontrack4.style.boxShadow = ''
+        tracknam.style.display = 'inline'
+        txt1.style.top = '30%'
+        txt1p.innerHTML = 'Alan Walker - Sing Me To Sleep (OutCast & OnlyBeat REMIX)'
+        txt1s.innerHTML = ''
+        txt1t.innerHTML = ''
+        txt1q.innerHTML = ''
+        txt1.innerHTML = ''
+    }
+    if (num == 2) {
+        buttontrack2.style.backgroundColor = '#ffff002f'
+        buttontrack2.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
+        buttontrack1.style.backgroundColor = ''
+        buttontrack1.style.boxShadow = ''
+        buttontrack3.style.backgroundColor = ''
+        buttontrack3.style.boxShadow = ''
+        buttontrack4.style.backgroundColor = ''
+        buttontrack4.style.boxShadow = ''
+        tracknam.style.display = 'inline'
+        txt1.style.top = '30%'
+        txt1s.innerHTML = 'Jilax Parra Nebula Kleysky - Mystique (Harlekin Remix)'
+        txt1.innerHTML = ''
+        txt1p.innerHTML = ''
+        txt1t.innerHTML = ''
+        txt1q.innerHTML = ''
+    }
+    if (num == 3) {
+        buttontrack3.style.backgroundColor = '#ffff002f'
+        buttontrack3.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
+        buttontrack1.style.backgroundColor = ''
+        buttontrack1.style.boxShadow = ''
+        buttontrack2.style.backgroundColor = ''
+        buttontrack2.style.boxShadow = ''
+        buttontrack4.style.backgroundColor = ''
+        buttontrack4.style.boxShadow = ''
+        tracknam.style.display = 'inline'
+        txt1.style.top = '30%'
+        txt1t.innerHTML = 'MEIS & Mahori - Down The Street'
+        txt1.innerHTML = ''
+        txt1p.innerHTML = ''
+        txt1s.innerHTML = ''
+        txt1q.innerHTML = ''
+    }
+    if (num == 4) {
+        buttontrack4.style.backgroundColor = '#ffff002f'
+        buttontrack4.style.boxShadow = '-1px 1px 0px black, 1px 1px 0px black'
+        buttontrack1.style.backgroundColor = ''
+        buttontrack1.style.boxShadow = ''
+        buttontrack2.style.backgroundColor = ''
+        buttontrack2.style.boxShadow = ''
+        buttontrack3.style.backgroundColor = ''
+        buttontrack3.style.boxShadow = ''
+        tracknam.style.display = 'inline'
+        txt1.style.top = '30%'
+        txt1q.innerHTML = 'PhaZed & Azkaban - Spartan Odyssey'
+        txt1.innerHTML = ''
+        txt1p.innerHTML = ''
+        txt1s.innerHTML = ''
+        txt1t.innerHTML = ''
+    }
 }
 
 document.getElementById('play1').addEventListener("click", tocar)
@@ -271,10 +257,10 @@ document.getElementById('button').addEventListener('click', submit)
 let msg = document.getElementById('imsg')
 let nome = document.getElementById('inome')
 
-function submit(){
-    if(nome.value.length == 0 || msg.value.length == 0){
+function submit() {
+    if (nome.value.length == 0 || msg.value.length == 0) {
         window.alert('Preencha o formulário corretamente !')
-    } else { 
+    } else {
         window.alert(`Obrigado por entrar em contato ${nome.value} !`)
         nome.value = ''
         msg.value = ''
