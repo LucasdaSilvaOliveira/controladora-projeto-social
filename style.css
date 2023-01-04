@@ -10,15 +10,12 @@ html {
      scroll-behavior: smooth;
 }
 body {
-    background-image: url(imagens/rave.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, purple, blue, white);
 }
 menu {
     height: 50px;
     width: 100%;
     padding-top: 30px;
-    
 }
 menu > nav {
     display: flex;
@@ -426,8 +423,10 @@ audio {
     line-height: 130%;
     display: none;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.664);
-    
 }
+
+/* ================================================= */
+
 a {
     text-decoration: none;
     color: white;
@@ -471,6 +470,19 @@ main {
 #hardskills h2 {
     font-size: 80px;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521);
+}
+#hardskills ul {
+    text-align: left;
+    font-size: 20px;
+    margin: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
+}
+#hardskills ul li {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.list-hardskills {
+    display: flex;
 }
 #divhs {
     
